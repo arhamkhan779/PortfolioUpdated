@@ -370,12 +370,73 @@ function initProjectSlider() {
 
     // Project data - edit or add projects here. Each project should have title, description, video (optional) and github link.
     const projects = [
-        { title: "Skin Tone Detection System", description: "Real-time CNN-based classification of skin tone.", video: "assets/project-videos/skin-tone.mp4", github: "https://github.com/your-username/skin-tone-detection" },
-        { title: "Skin Cell Carcinoma Classification", description: "Deep learning pipeline for skin cancer segmentation.", video: "assets/project-videos/skin-cancer.mp4", github: "https://github.com/your-username/skin-cancer-detection" },
-        { title: "Hierarchical Lung Disease Diagnosis", description: "Multi-level CNN-BLSTM model for chest image classification.", video: "assets/project-videos/lung-disease.mp4", github: "https://github.com/your-username/lung-disease-diagnosis" },
-        { title: "Real-Time Sentiment Analysis", description: "BERT-based pipeline for live sentiment classification.", video: "assets/project-videos/sentiment-analysis.mp4", github: "https://github.com/your-username/sentiment-analysis" },
-        { title: "Sports Person Classification", description: "CNN + BLSTM model for athlete categorization.", video: "assets/project-videos/sports-classification.mp4", github: "https://github.com/your-username/sports-classification" }
+        { title: "AI base Lungs Diagnoser Agent", description: "Complete Doctor Platform for complete lungs diagnosis.", video: "assets/Videos/bandicam 2025-06-03 10-45-54-529.mp4", github: "https://github.com/arhamkhan779/Lungs-Diagnoser" },
+        
+        { title: "AI Technical Interviewer", description: "Technical Interviewer Agent Using LLM.", video: "assets/Videos/interviewer.mp4", github: "https://github.com/arhamkhan779/AI-Interviewer" },
+
+         { title: "AI base assignment Maker", description: "AI Agent that writes professional assignemnts.", video: "assets/Videos/video12.mp4", github: "hhttps://github.com/arhamkhan779" },
+
+        { title: "Segmented Classification of brain Tumor", description: "CNN + UNET hybrid architecture for segmented classification of brain tumor", video: "assets/Videos/video13.mp4", github: "https://github.com/arhamkhan779/BrainTumorSegmentedClassification" },
+
+        { title: "AI Powered WebScrapper Agent", description: "Real-time Web Scrapper Agent.", video: "assets/Videos/aipowered.mp4", github: "https://github.com/arhamkhan779" },
+
+        { title: "Real Time Car Detection", description: "Yolo base system for detecting cars.", video: "assets/Videos/bandicam 2024-09-02 18-59-13-633.mp4", github: "https://github.com/arhamkhan779" },
+
+        { title: "Lung X-Ray Segmentation", description: "Lungs X-ray Segmentation using U-NET.", video: "assets/Videos/bandicam 2025-05-30 05-04-04-932.mp4", github: "https://github.com/arhamkhan779" },
+
+        
+
+        { title: "AI Powered Chatbot", description: "Rag base AI Powered Chatbot using Gemini.", video: "assets/Videos/cellmat.mp4", github: "https://github.com/arhamkhan779" },
+
+        { title: "Dibetes Militus 2 Chatbot using Rag", description: "A Helpful assistant for diabetes militus2 guidlines.", video: "assets/Videos/DiagueAssistant.mp4", github: "https://github.com/arhamkhan779/Diabetes2Chatbot" },
+
+        { title: "Hierarchical Classification of Lung Diseases", description: "CNN base Hierarchical Classification of Lung Diseases.", video: "assets/Videos/herir.mp4", github: "https://github.com/arhamkhan779" },
+
+        { title: "Website Integrated Chatbot Using DialogFlow", description: "A rule based Dialogflow chatbot", video: "assets/Videos/intergratedchatbot.mp4", github: "https://github.com/arhamkhan779" },
+
+        
+
+        { title: "Jarvis", description: "Jarvis Voice Assistant.", video: "assets/Videos/jarvis.mp4", github: "https://github.com/arhamkhan779" },
+
+        { title: "Mental Health Detection", description: "A transformer base architecture for mental health detection.", video: "assets/Videos/meicalhealthdetection.mp4", github: "https://github.com/arhamkhan779/Transformers" },
+
+        { title: "Paraphrase Generator", description: "A transformer base architecture of paraphrase generation.", video: "assets/Videos/phraphrasegenerator.mp4", github: "https://github.com/arhamkhan779/Transformers" },
+
+        { title: "Complete Transformer Pipeline", description: "Transformer base complete pipeline for multiple language tasks.", video: "assets/Videos/pipeline.mp4", github: "https://github.com/arhamkhan779/Transformers" },
+
+        { title: "Plants Classification", description: "CNN base architecture for plants classification.", video: "assets/Videos/platn.mp4", github: "https://github.com/arhamkhan779" },
+
+
+        { title: "Pneumonia Detection", description: "CNN Architecture for pneumonia classification.", video: "assets/Videos/PrototypeSample.mp4", github: "https://github.com/arhamkhan779" },
+
+        { title: "DocumentMindAI", description: "A rag base application for document question answering.", video: "assets/Videos/RAG.mp4", github: "https://github.com/arhamkhan779" },
+
+        { title: "Skin Cancer Classification", description: "CNN base architecture for Cancer classification.", video: "assets/Videos/skincancer.mp4", github: "https://github.com/arhamkhan779/Cancer-Classification" },
+
+        { title: "Language Translator", description: "Transformer base architecture for eng-urdu translation.", video: "assets/Videos/translator.mp4", github: "https://github.com/arhamkhan779/Transformers" },
+
+        { title: "AI base Tumor Detection System", description: "Yolo base Architecture for Tumor Detection.", video: "assets/Videos/video1.mp4", github: "https://github.com/arhamkhan779/MRI-CLASSIFICATION" },
+
+
+        { title: "Plagiarism Detector", description: "Transformer architecture for plagiarism detection.", video: "assets/Videos/video3.mp4", github: "https://github.com/arhamkhan779/Transformers" },
+
+        { title: "QR Code Detector", description: "OpenCV base QR Code Detection.", video: "assets/Videos/video4.mp4", github: "https://github.com/arhamkhan779/QrCodeDetection" },
+
+        { title: "Breast Cancer Classification", description: "CNN Architecture for breast cancer classification.", video: "assets/Videos/video5.mp4", github: "https://github.com/arhamkhan779/BreastCancerClassification" },
+
+
+        { title: "Weather Prediction", description: "ML Architecture for accurate weather predictions.", video: "assets/Videos/video7.mp4", github: "https://github.com/arhamkhan779/WeatherPredictionSystem" },
+
+
+        { title: "AI Base Content Moderation System", description: "CNN + Transformer Architecture for Content Moderation.", video: "assets/Videos/video9.mp4", github: "https://github.com/arhamkhan779/AI-base-Content-Moderation-System" },
+
+        { title: "Attendance System Using Facial Recognition", description: "A comprehensice system for automated attendance using facial recognition.", video: "assets/Videos/video10.mp4", github: "https://github.com/arhamkhan779" },
+
+        { title: "Inventory Analysis Agent", description: "A inventory analysis agent that interact with real time database.", video: "assets/Videos/video11.mp4", github: "https://github.com/arhamkhan779" },
+
+       
     ];
+
 
     // Build cards and append to track
     projects.forEach(p => {
